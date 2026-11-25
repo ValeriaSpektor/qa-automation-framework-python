@@ -1,0 +1,52 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyCharm and IDE
+.idea/
+.vscode/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Allure reports
+allure-results/
+allure-report/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+screenshots/
+videos/
+traces/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Additional Allure artifacts
+allureresults/
+allurereport/
+
+# Local environment configuration
+resources/urls.properties
+
+# Playwright traces
+traces/
